@@ -1518,7 +1518,7 @@
             }
         }
          .contact-container {
-            max-width: 1200px;
+            max-width: 786px;
             margin: 0 auto;
             padding: 40px 20px;
         }
@@ -1537,7 +1537,7 @@
 
         .contact-header p {
             font-size: 1.2rem;
-            color: var(--text-light);
+            color: var(--text-glow);
             max-width: 600px;
             margin: 0 auto;
         }
@@ -1549,7 +1549,7 @@
             align-items: start;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 650px) {
             .contact-content {
                 grid-template-columns: 1fr;
             }
@@ -1579,7 +1579,7 @@
         }
 
         .info-icon {
-            background: var(--primary-purple);
+            background: var(--primary-light);
             color: var(--white);
             width: 50px;
             height: 50px;
@@ -1592,7 +1592,7 @@
         }
 
         .info-content h3 {
-            color: var(--purple-dark);
+            color: var(--bg-dark);
             margin-bottom: 5px;
             font-size: 1.2rem;
         }
@@ -1616,7 +1616,7 @@
         .form-group label {
             display: block;
             margin-bottom: 8px;
-            color: var(--purple-dark);
+            color: var(--bg-dark);
             font-weight: 600;
         }
 
@@ -1631,7 +1631,7 @@
         }
 
         .form-control:focus {outline: none;
-            border-color: var(--primary-purple);
+            border-color: var(--text-glow);
             box-shadow: 0 0 0 3px rgba(139, 95, 191, 0.1);
         }
 
@@ -1655,7 +1655,10 @@
             display: inline-block;
             text-align: center;
         }
-
+.con{
+width: 480px;
+    max-width:650px;
+}
         .send-button:hover {
             transform: translateY(-3px);
             box-shadow: 0 10px 25px rgba(139, 95, 191, 0.3);
@@ -1677,7 +1680,7 @@
         .social-link {
             width: 50px;
             height: 50px;
-            background: var(--primary-purple);
+            background: var(--primary-dark);
             color: var(--white);
             border-radius: 50%;
             display: flex;
@@ -1689,13 +1692,13 @@
 
         .social-link:hover {
             transform: translateY(-5px) scale(1.1);
-            background: var(--purple-dark);
+            background: var(--primary-dark);
         }
 
         /* Success Message */
         .success-message {
-            background: var(--purple-lighter);
-            color: var(--purple-dark);
+            background: var(--primary-light);
+            color: var(--primary-dark);
             padding: 20px;
             border-radius: 12px;
             text-align: center;
@@ -2240,6 +2243,7 @@
                         <span class="footer-tech-tag">HTML5</span>
                     </div>
                 </div>
+                <div class="con">
                 <div class="contact-container">
         <div class="contact-header">
             <h1>Contact Us</h1>
@@ -2325,6 +2329,7 @@
                 </div>
             </div>
     </div>
+                </div>
                 <!-- Contact Info -->
                 <div class="footer-contact">
                     <h4>Get In Touch</h4>
